@@ -63,7 +63,7 @@ int main() {
     printf("Digite a populacao: ");
     scanf("%d", &populacao2);
 
-    printf("Digite a area (em km^2): ");
+    printf("Digite a area (em km²): ");
     scanf("%f", &area2);
 
     printf("Digite o PIB: ");
