@@ -9,7 +9,7 @@ int main() {
     // Carta 1
     char estado1;
     char codigo1[5];   
-    char nomec1[50];   
+    char nomec1[70];   
     int populacao1;
     float area1;
     float pib1;
@@ -18,7 +18,7 @@ int main() {
     // Carta 2
     char estado2;
     char codigo2[5];
-    char nomec2[50];
+    char nomec2[70];
     int populacao2;
     float area2;
     float pib2;
@@ -34,7 +34,7 @@ int main() {
     scanf("%4s", codigo1);
 
     printf("Digite o nome da cidade (sem espacos, ex: SaoPaulo): ");
-    scanf("%49s", nomec1);
+    scanf("%69s", nomec1);
 
     printf("Digite a populacao: ");
     scanf("%d", &populacao1);
@@ -58,7 +58,7 @@ int main() {
     scanf("%4s", codigo2);
 
     printf("Digite o nome da cidade (sem espacos, ex: RioDeJaneiro): ");
-    scanf("%49s", nomec2);
+    scanf("%69s", nomec2);
 
     printf("Digite a populacao: ");
     scanf("%d", &populacao2);
